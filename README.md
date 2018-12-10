@@ -9,6 +9,14 @@ Using Publish Subcribe pattern to implement a message passing application where
 ## How it works
 After cloning the repo, run simultaneously Receiver.java and Sender.java (save port 6789) 
 
+## Sender
+
+Input message: Heyyyyy \
+Input topic: vCS \
+Send to topic [vCS] "Heyyyyy"? (Y/n): y \
+Sent to topic [vCS] "Heyyyyy" \
+Do you want to continue? (Y/n): n 
+
 ## Receiver
 
 1. Subscribe 
@@ -19,10 +27,3 @@ Subscribe to topic: vCS
  
 ==>> Received message from topic [vCS] Heyyyyy <<==
 
-## Sender
-
-Input message: Heyyyyy \
-Input topic: vCS \
-Send to topic [vCS] "Heyyyyy"? (Y/n): y \
-Sent to topic [vCS] "Heyyyyy" \
-Do you want to continue? (Y/n): n 

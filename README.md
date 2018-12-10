@@ -1,9 +1,10 @@
 ## Overview
  
 Using Publish Subcribe pattern to implement a message passing application where
-1. Publisher can send messages to multiple topics.
-2. Subscriber can subscribe and receive messages from multiple topics.
-3. Broker is the one handle receiving from Publishers & broadcasting messages to the correct Subscribers
+1. A Message contains a topic and its payload.
+2. Publisher can send messages to multiple topics.
+3. Subscriber can subscribe and receive messages from multiple topics.
+4. Broker is the one handle receiving from Publishers & broadcasting messages to the correct Subscribers
 
 
 ## How it works

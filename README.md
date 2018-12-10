@@ -9,7 +9,7 @@ Using Publish Subcribe pattern to implement a message passing application where
 ## How it works
 After cloning the repo, run simultaneously Receiver.java and Sender.java (save port 6789) 
 
-##Receiver
+## Receiver
 
 1. Subscribe 
 2. Unsubscribe 
